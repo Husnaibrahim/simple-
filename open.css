@@ -75,9 +75,22 @@ UL{
 }
 .logo{
     padding-left: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #menu-toggle{
     display: none;
+}
+#sub{
+    box-shadow:  0 0px #fff;
+
+}
+.sub-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+.sub-li{
+    /* width:15%; */
 }
 
 @media screen and (max-width:650px) {
